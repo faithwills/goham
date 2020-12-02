@@ -1,0 +1,117 @@
+.add_schedule {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.add_schedule_container {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+
+.add_schedule_item {
+    width: 100%;
+}
+
+.add_schedule_item_title {
+    font-size: 20px;
+}
+
+.add_schedule_item_input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_schedule_item_input_container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.add_schedule_item_input_container.checkbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.add_schedule_item_input_container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+.add_schedule_item_input_field {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.material-icons.identifier {
+    width: 30px;
+    height: 30px;
+    opacity: 54%;
+}
+
+.material-icons.identifier.search {
+    margin-top: 5px;
+}
+
+input[type=date] {
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+input[type=time] {
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+input[type=radio] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+.schedule_button {
+    width: 100%;
+    border: none;
+    background-color: #118DFF;
+    opacity: 80%;
+    height: 54px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-top: 30px;
+}
+
+.friend_tag {
+    width: 53px;
+    height: 24px;
+    background-color: #118DFF;
+    opacity: 80%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}

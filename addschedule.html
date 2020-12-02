@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WorkOut with your friends and grow your avatar!">
+    <meta name="author" content="Eurey Noguchi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Out!</title>
+
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/addschedule.css">
+
+</head>
+<body>
+<div class="layout">
+    <div class="iphone">
+        <div class="header">WORKOUT!</div>
+
+        <div class="content">
+            <div class="title_bg">
+                <div class="title">Add Schedule</div>
+            </div>
+
+            <div class="add_schedule">
+                <div class="add_schedule_container">
+                    <form action="" class="add_schedule_item_input">
+
+                        <div class="add_schedule_item">
+                            <div class="add_schedule_item_title">Date</div>
+                            <div class="add_schedule_item_input_container">
+                                <label for="date"><i class="material-icons identifier">date_range_icon</i></label>
+                                <input type="date" id="date" name="date" class="add_schedule_item_input_field" required>
+                            </div>
+                        </div>
+
+                        <div class="add_schedule_item">
+                            <div class="add_schedule_item_title">Time</div>
+                            <div class="add_schedule_item_input_container">
+                                <label for="time"><i class="material-icons identifier">query_builder_icon</i></label>
+                                <input type="time" id="time" name="time" class="add_schedule_item_input_field" required>
+                            </div>
+                        </div>
+
+                        <div class="add_schedule_item">
+                            <div class="add_schedule_item_title">Frequency</div>
+                            <div class="add_schedule_item_input_container checkbox">
+                                <input type="checkbox" id="daily" name="daily" value="daily">
+                                <label for="daily"> Daily</label><br>
+
+                                <input type="checkbox" id="weekly" name="weekly" value="weekly">
+                                <label for="weekly"> Weekly</label><br>
+
+                                <input type="checkbox" id="monthly" name="monthly" value="monthly">
+                                <label for="monthly"> Monthly</label><br>
+                            </div>
+                        </div>
+
+                        <div class="add_schedule_item">
+                            <div class="add_schedule_item_title">Friend</div>
+                            <div class="add_schedule_item_input_container">
+                                <label for="time"><i class="material-icons identifier search">search_icon</i></label>
+                                <input type="text" id="friend" name="friend" class="add_schedule_item_input_field">
+                            </div>
+                            <div class="friend_tag">Andy</div>
+                        </div>
+
+                        <div class="add_schedule_item">
+                            <div class="add_schedule_item_title">Exercise</div>
+                            <div class="add_schedule_item_input_container">
+                                <select name="exercise" id="exercise">
+                                    <option value="aerobic1">Aerobic1</option>
+                                    <option value="aerobic2">Aerobic2</option>
+                                    <option value="aerobic3">Aerobic3</option>
+                                    <option value="aerobic4">Aerobic4</option>
+
+                                    <option value="arms1">Arms1</option>
+                                    <option value="arms2">Arms2</option>
+                                    <option value="arms3">Arms3</option>
+                                    <option value="arms4">Arms4</option>
+                                    <option value="arms5">Arms5</option>
+
+                                    <option value="back1">Back1</option>
+                                    <option value="back2">Back2</option>
+                                    <option value="back3">Back3</option>
+                                    <option value="back4">Back4</option>
+
+                                    <option value="chest1">Chest1</option>
+                                    <option value="chest2">Chest2</option>
+                                    <option value="chest3">Chest3</option>
+                                    <option value="chest4">Chest4</option>
+
+                                    <option value="core1">Core1</option>
+                                    <option value="core2">Core2</option>
+                                    <option value="core3">Core3</option>
+                                    <option value="core4">Core4</option>
+
+                                    <option value="legs1">Legs1</option>
+                                    <option value="legs2">Legs2</option>
+                                    <option value="legs3">Legs3</option>
+                                    <option value="legs4">Legs4</option>
+
+                                    <option value="stretch1">Stretch1</option>
+                                    <option value="stretch2">Stretch2</option>
+                                    <option value="stretch3">Stretch3</option>
+                                    <option value="stretch4">Stretch4</option>
+
+                                    <option value="yoga1">Yoga1</option>
+                                    <option value="yoga2">Yoga2</option>
+                                    <option value="yoga3">Yoga3</option>
+                                    <option value="yoga4">Yoga4</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type='submit' name='schedule' value='schedule' class="schedule_button">SCHEDULE!</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer_container">
+                <a href="index.html">
+                    <div class="footer_button">
+                        <i class="material-icons">home</i>
+                        <div class="footer_text">Home</div>
+                    </div>
+                </a>
+                <a href="exercises.html">
+                    <div class="footer_button">
+                        <i class="material-icons">accessibility</i>
+                        <div class="footer_text">Exercises</div>
+                    </div>
+                </a>
+                <a href="calendar.html">
+                    <div class="footer_button active">
+                        <i class="material-icons">event</i>
+                        <div class="footer_text">Calendar</div>
+                    </div>
+                </a>
+                <a href="profile.html">
+                    <div class="footer_button">
+                        <i class="material-icons">account_circle</i>
+                        <div class="footer_text">Profile</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

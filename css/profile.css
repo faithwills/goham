@@ -1,0 +1,75 @@
+.profile {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic {
+    background-color: #FCFCFC;
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    border: 5px solid #CECECE;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    z-index: 2;
+    background-image: url("../img/avatar.png");
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    margin-top: 180px;
+    margin-right: 160px;
+    position: absolute;
+}
+
+.list_friends_details {
+    width: 35px;
+    height: 35px;
+}
+
+.list_item {
+    padding: 3px 18px 3px 18px;
+}
+
+.list_friends {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.list_invite {
+    text-align: right;
+}
+
+.list_invite_decision {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.check_icon {
+    width: 30px;
+}
+
+.x_icon {
+    width: 30px;
+    margin-left: 12px;
+}
+
+#check {
+    color: #27AE60;
+}
+
+#x {
+    color: #EB5757;
+}
+
+#fixed {
+    /*position: fixed;*/
+}
