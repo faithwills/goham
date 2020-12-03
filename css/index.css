@@ -1,3 +1,8 @@
+.home {
+    background-image: url("../img/home_bg.png");
+    background-size: cover;
+}
+
 .game {
     height: 346px;
     width: 375px;
@@ -5,25 +10,38 @@
     position: absolute;
 }
 
-.game_bg {
-    background-image: url("../img/game.jpg");
-    opacity: 0.7;
-    height: 346px;
-    width: 375px;
-    z-index: 1;
+/*.game_bg {*/
+/*    background-image: url("../img/game.jpg");*/
+/*    opacity: 0.7;*/
+/*    height: 346px;*/
+/*    width: 375px;*/
+/*    z-index: 1;*/
+/*    position: absolute;*/
+/*}*/
+
+.label {
+    z-index: 2;
+    width: 153px;
+    height: 31px;
+    padding: 4px 25px 4px 25px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
 }
 
-.level {
-    background-color: #FFFFFF;
-    z-index: 2;
-    width: fit-content;
-    padding: 4px 25px 4px 25px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    position: absolute;
-    letter-spacing: 4px;
+.player_name {
+    background-color: #FFEE58;
+    margin-top: 220px;
+}
+
+.exercise_name {
+    background-color: #118DFF;
+    margin-top: 420px;
+    color: #FFFFFF;
 }
 
 .game_info {
@@ -38,7 +56,7 @@
     height: 180px;
     border-radius: 50%;
     z-index: 2;
-    background-color: #FFB2B2;
+    background-color: #CECECE;
     margin-top: 20px;
     position: absolute;
 }
@@ -48,7 +66,7 @@
     height: 140px;
     border-radius: 50%;
     z-index: 3;
-    border: 20px solid #FF7272;
+    border: 20px solid #8afd61;
     margin-top: 20px;
     border-top-color: transparent;
     transform: rotate(300deg);
@@ -76,16 +94,15 @@
 
 .txt_cal {
     font-size: 18px;
-    letter-spacing: wpx;
+    letter-spacing: 2px;
 }
 
 .avatar {
-    z-index: 2;
     background-image: url("../img/avatar.png");
     background-size: contain;
     width: 164px;
     height: 164px;
-    margin-top: 190px;
+    margin-left: 10px;
 }
 
 .upcoming {
