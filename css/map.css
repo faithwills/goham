@@ -1,0 +1,156 @@
+body {
+    
+}
+
+.content {
+    background-image: url("../img/pokemongo_bg.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+.profile {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.avatartext {
+    background-color: white;
+    width: 80%;
+    height: 12%;
+    border-radius: 4px;
+    position: relative;
+    top: 80%;
+    margin: 0 auto;
+
+}
+
+.avatar {
+    z-index: 2;
+    background-image: url("../img/avatar.png");
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 180px;
+    margin-right: 160px;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+
+
+.room_location_circle {
+
+    width: 125px;
+    border-radius: 50%;
+    height: 125px;
+    /*border: 5px solid #FFEE58;*/
+    background-image:url("../img/location_circle.png");
+    /*background: rgb(255,255,255);*/
+    /*background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(118,230,232,1) 38%); */
+    z-index: 0;
+    background-size: cover;
+
+
+}
+
+#room1 {
+    position: relative;
+    
+}
+
+
+#room2 {
+    position: relative;
+    left: 20%;
+}
+
+#room3 {
+    position: relative;
+    top: 20%;
+    width: 100px;
+
+}
+.room_text {
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    position:relative;
+    /*margin: 0 auto;*/
+    text-align: center;
+    width: 150px;
+}
+
+.ham_preview {
+    z-index:1;
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    opacity:1;
+    transform: translate(-60%, -60%);
+
+}
+
+.joinbutton {
+    color: white;
+    background-color: #118DFF;
+    position: relative;
+    /*padding: 1px;*/
+    border-radius:2px;
+    margin: 10px;
+    
+}
+
+.joinbutton p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.list_friends_details {
+    width: 35px;
+    height: 35px;
+}
+
+.list_item {
+    padding: 3px 18px 3px 18px;
+}
+
+.list_friends {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.list_invite {
+    text-align: right;
+}
+
+.list_invite_decision {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.check_icon {
+    width: 30px;
+}
+
+.x_icon {
+    width: 30px;
+    margin-left: 12px;
+}
+
+#check {
+    color: #27AE60;
+}
+
+#x {
+    color: #EB5757;
+}
+
+#fixed {
+    /*position: fixed;*/
+}
