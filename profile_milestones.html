@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="GO HAM!">
+    <meta name="author" content="Eurey Noguchi, Vivian Liu, Sam Figuerado, Faith Williams">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Out!</title>
+
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/profile.css">
+
+</head>
+
+<!-- BODY -->
+<body>
+<div class="layout">
+    <div class="iphone">
+
+        <!-- HEADER -->
+        <div class="header">WORKOUT!</div>
+
+        <!-- PROFILE CONTENT -->
+        <div class="profile_content">
+
+            <!-- PROFILE PIC -->
+            <div class="profile">
+                <div class="profile_pic">
+                    <img src="img/profile.png" />
+                </div>
+                <div class="avatar"></div>
+            </div>
+
+            <!-- FRIENDS LIST -->
+            <div class="list_title_container">  
+                <div class="list_friends_streak" id="fixed">
+                    <div class="list_title">FRIENDS</div>
+                </div>
+            </div>
+            <div class="list_body_container" >  
+                <div class="list" id="fixed">
+                    <!-- HEADING -->
+                    <div class="list_item" >
+                        <div class="list_subtitle">
+                            FRIEND &nbsp; HISTORY &nbsp; HANGOUTS
+                        </div>
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 1 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham7.png" />
+                            <div>ANDY</div>
+                        </div>
+            
+                        <div class=list_timeline>PALS FOR 1 YEAR </div>
+                        <div class=list_hangout>30 WORKOUTS</div>
+                        
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 2 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham8.png" />
+                            <div>STEPH</div>
+                        </div>
+                        <div class="list_timeline">PALS FOR 3 WEEKS</div>
+                        <div class=list_hangout>9 WORKOUTS</div>
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 3 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham3a.png" />
+                            <div>CAROL</div>
+                        </div>
+                        <div class="list_timeline">PALS FOR 5 DAYS</div>
+                        <div class=list_hangout>2 WORKOUTS</div>
+                    </div>
+
+                    <hr>
+
+                </div>
+            </div>
+            <br>
+
+            <!-- INVITE LIST -->
+            <div class="list_title_container">        
+                <div class="list_friends_invite" id="fixed">
+                        <div class="list_title">INVITES</div>
+                </div>
+            </div>
+            <div class="list_body_container">  
+                <div class="list">
+                    <div class="list_item" >
+                        <div class="list_subtitle">FRIEND &nbsp;&nbsp; EXERCISE</div>
+                    </div>
+
+                    <hr>
+
+                    <!-- INVITE 1 -->
+                    <div class="list_item">
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham4.png" />
+                            <div>TOM</div>
+                        </div>
+                        <div class="list_workout_name">Abs 3</div>
+                        <div class="list_invite">
+                            <div class="list_invite_decision">
+                                <a href="#">
+                                    <div class="check_icon">
+                                        <i class="material-icons" id="check">check_icon</i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="x_icon">
+                                        <i class="material-icons" id="x">close_icon</i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- INVITE 2 -->
+                    <div class="list_item">
+                        <div class="list_datetime">
+                            <img class="friend_icon" src="img/ham5.png" />
+                            <div class="list_time">SUSAN</div>
+                        </div>
+                        <div class="list_workout_name">Chest 1</div>
+                        <div class="list_invite">
+                            <div class="list_invite_decision">
+                                <a href="#">
+                                    <div class="check_icon">
+                                        <i class="material-icons" id="check">check_icon</i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="x_icon">
+                                        <i class="material-icons" id="x">close_icon</i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                </div>
+            </div>   
+            
+            <!-- OTHER PROFILE PAGES -->
+            
+            <a href="profile_progress.html">
+                <div class="profile_buttons">MY PROGRESS</div>
+            </a>
+            <a href="profile_milestones.html">
+                <div class="profile_buttons">MY MILESTONES</div>
+            </a>  
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer_container">
+                <a href="index.html">
+                    <div class="footer_button">
+                        <i class="material-icons">home</i>
+                        <div class="footer_text">Home</div>
+                    </div>
+                </a>
+                <a href="exercises.html">
+                    <div class="footer_button">
+                        <i class="material-icons">accessibility</i>
+                        <div class="footer_text">Exercises</div>
+                    </div>
+                </a>
+                <a href="calendar.html">
+                    <div class="footer_button">
+                        <i class="material-icons">event</i>
+                        <div class="footer_text">Calendar</div>
+                    </div>
+                </a>
+                <a href="profile.html">
+                    <div class="footer_button active">
+                        <i class="material-icons">account_circle</i>
+                        <div class="footer_text">Profile</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
