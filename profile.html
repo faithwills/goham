@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- HEAD -->
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="WorkOut with your friends and grow your avatar!">
-    <meta name="author" content="Eurey Noguchi">
+    <meta name="description" content="GO HAM!">
+    <meta name="author" content="Eurey Noguchi, Vivian Liu, Sam Figuerado, Faith Williams">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Out!</title>
 
@@ -15,12 +16,19 @@
     <link rel="stylesheet" href="css/profile.css">
 
 </head>
+
+<!-- BODY -->
 <body>
 <div class="layout">
     <div class="iphone">
+
+        <!-- HEADER -->
         <div class="header">WORKOUT!</div>
 
-        <div class="content">
+        <!-- PROFILE CONTENT -->
+        <div class="profile_content">
+
+            <!-- PROFILE PIC -->
             <div class="profile">
                 <div class="profile_pic">
                     <img src="img/profile.png" />
@@ -28,32 +36,84 @@
                 <div class="avatar"></div>
             </div>
 
-            <a href="#">
-                <div class="list_item" id="fixed">
-                    <div class="list_friends">Friends</div>
-                    <div class="list_friends_details">
-                        <i class="material-icons">keyboard_arrow_right_icon</i>
-                    </div>
+            <!-- FRIENDS LIST -->
+            <div class="list_title_container">  
+                <div class="list_friends_streak" id="fixed">
+                    <div class="list_title">FRIENDS</div>
                 </div>
-            </a>
-
-            <hr>
-
-            <div class="list_container">
-                <div class="title_bg">
-                    <div class="title">Invitations</div>
-                </div>
-
-                <div class="list">
-
-                    <div class="list_item">
-                        <div class="list_datetime">
-                            <div class="list_date">10/29</div>
-                            <div class="list_time">6PM</div>
+            </div>
+            <div class="list_body_container" >  
+                <div class="list" id="fixed">
+                    <!-- HEADING -->
+                    <div class="list_item" >
+                        <div class="list_subtitle">
+                            FRIEND &nbsp; HISTORY &nbsp; HANGOUTS
                         </div>
-                        <div class="list_title">Abs3</div>
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 1 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham7.png" />
+                            <div>ANDY</div>
+                        </div>
+            
+                        <div class=list_timeline>PALS FOR 1 YEAR </div>
+                        <div class=list_hangout>30 WORKOUTS</div>
+                        
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 2 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham8.png" />
+                            <div>STEPH</div>
+                        </div>
+                        <div class="list_timeline">PALS FOR 3 WEEKS</div>
+                        <div class=list_hangout>9 WORKOUTS</div>
+                    </div>
+
+                    <hr>
+                    <!-- FRIEND 3 -->
+                    <div class="list_item" >  
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham3a.png" />
+                            <div>CAROL</div>
+                        </div>
+                        <div class="list_timeline">PALS FOR 5 DAYS</div>
+                        <div class=list_hangout>2 WORKOUTS</div>
+                    </div>
+
+                    <hr>
+
+                </div>
+            </div>
+            <br>
+
+            <!-- INVITE LIST -->
+            <div class="list_title_container">        
+                <div class="list_friends_invite" id="fixed">
+                        <div class="list_title">INVITES</div>
+                </div>
+            </div>
+            <div class="list_body_container">  
+                <div class="list">
+                    <div class="list_item" >
+                        <div class="list_subtitle">FRIEND &nbsp;&nbsp; EXERCISE</div>
+                    </div>
+
+                    <hr>
+
+                    <!-- INVITE 1 -->
+                    <div class="list_item">
+                        <div class="list_friend_name">
+                            <img class="friend_icon" src="img/ham4.png" />
+                            <div>TOM</div>
+                        </div>
+                        <div class="list_workout_name">Abs 3</div>
                         <div class="list_invite">
-                            <div class="list_invite_name">TOM</div>
                             <div class="list_invite_decision">
                                 <a href="#">
                                     <div class="check_icon">
@@ -71,14 +131,14 @@
 
                     <hr>
 
+                    <!-- INVITE 2 -->
                     <div class="list_item">
                         <div class="list_datetime">
-                            <div class="list_date">11/4</div>
-                            <div class="list_time">6PM</div>
+                            <img class="friend_icon" src="img/ham5.png" />
+                            <div class="list_time">SUSAN</div>
                         </div>
-                        <div class="list_title">Chest1</div>
+                        <div class="list_workout_name">Chest 1</div>
                         <div class="list_invite">
-                            <div class="list_invite_name">LOREN</div>
                             <div class="list_invite_decision">
                                 <a href="#">
                                     <div class="check_icon">
@@ -101,6 +161,7 @@
 
         </div>
 
+        <!-- FOOTER -->
         <div class="footer">
             <div class="footer_container">
                 <a href="index.html">

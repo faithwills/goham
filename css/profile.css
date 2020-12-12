@@ -6,6 +6,14 @@
     align-items: center;
 }
 
+.profile_content {
+    width: 100%;
+    height: 661px;
+    overflow: auto;
+    background-image: url("../img/pokemongo_bg.jpg");
+    background-size: cover;
+}
+
 .profile_pic {
     background-color: #FCFCFC;
     width: 224px;
@@ -29,19 +37,83 @@
     position: absolute;
 }
 
-.list_friends_details {
-    width: 35px;
-    height: 35px;
+.list_title_container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.list_item {
+.list_body_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white
+}
+
+.list_friends_streak {
+    background-color: #3DCCCC;
+    padding: 3px 18px 3px 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_friends_invite {
+    background-color: #FFDF00;
     padding: 3px 18px 3px 18px;
 }
 
-.list_friends {
+.list_title {
+    color: white;
     font-size: 24px;
     letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
+.friend_icon{
+    align-items:center;
+    height: 50%;
+    width: 50%;
+}
+
+.list_friend_name{
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.list_timeline {
+    font-size: 12px;
+    text-align: left;
+}
+
+.list_hangout {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.list_subtitle {
+    padding-top: 30px;
+    left: -30%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_workout_name {
+    position:relative;
+    left:15%;
+    font-size: 14px;
+    width: 33%;
+    text-align: center;
+}
+
 
 .list_invite {
     text-align: right;
