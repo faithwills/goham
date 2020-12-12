@@ -125,6 +125,30 @@
     justify-content: flex-end;
 }
 
+.profile_buttons{
+    position: relative;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float:left;
+    
+    width: 40%;
+    height:5%;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #118DFF;   
+
+    color: white !important;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .check_icon {
     width: 30px;
 }
