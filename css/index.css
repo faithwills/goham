@@ -175,19 +175,35 @@
 }
 
 .blue {
-    background-color: #BAECF6;
+    background: #BAECF6;
+    background-image: url("../img/ham_sprite1.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .purple {
-    background-color: #CABAF6;
+    background: #CABAF6;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .orange {
-    background-color: #F6CCBA;
+    background: #F6CCBA;
+    background-image: url("../img/ham_sprite3.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .green {
-    background-color: #E7F6BA;
+    background: #E7F6BA;
+    background-image: url("../img/ham_sprite7.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .game_info {
