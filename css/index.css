@@ -1,3 +1,8 @@
+.home {
+    background-image: url("../img/home_bg.png");
+    background-size: cover;
+}
+
 .game {
     height: 346px;
     width: 375px;
@@ -5,25 +10,200 @@
     position: absolute;
 }
 
-.game_bg {
-    background-image: url("../img/game.jpg");
-    opacity: 0.7;
-    height: 346px;
-    width: 375px;
-    z-index: 1;
+.avatar_info {
+    display: contents;
+    width: 200px;
+    height: 200px;
+}
+
+.stats_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    z-index: 2;
+    width: 153px;
+    height: 31px;
+    padding: 4px 25px 4px 25px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
 }
 
-.level {
-    background-color: #FFFFFF;
-    z-index: 2;
-    width: fit-content;
-    padding: 4px 25px 4px 25px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+.player_name {
+    background-color: #FFEE58;
+    margin-top: 220px;
+}
+
+.exercise_name {
+    display: block;
+    background-color: #118DFF;
+    margin-top: 380px;
+    color: #FFFFFF;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
     position: absolute;
-    letter-spacing: 4px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.yoga {
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 50px
+}
+
+.icon-right {
+    float: right;
+    position: fixed;
+    margin: 0;
+    float: right;
+    margin-left: 140px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.info_detail {
+    font-size: 20px;
+    background-color: white;
+    height: fit-content;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+}
+
+.stats {
+    margin-top: 240px;
+}
+
+.leaderboard {
+    margin-top: 45px;
+}
+
+.leaderboard_text {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.crown {
+    height: 15px;
+}
+
+.week {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.leaderboard_table {
+    margin-top: 10px;;
+    width: 220px;
+    font-size: 17px;
+    border-spacing: 0 5px;
+}
+
+.text-left {
+    font-weight: normal;
+    text-align: left;
+    display: flex;
+}
+
+.text-right {
+    font-weight: normal;
+    text-align: right;
+}
+
+.circle-avatar {
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-ham {
+    width: 15px;
+    height: 15px;
+}
+
+.blue {
+    background: #BAECF6;
+    background-image: url("../img/ham_sprite1.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.purple {
+    background: #CABAF6;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.orange {
+    background: #F6CCBA;
+    background-image: url("../img/ham_sprite3.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.green {
+    background: #E7F6BA;
+    background-image: url("../img/ham_sprite7.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .game_info {
@@ -38,7 +218,7 @@
     height: 180px;
     border-radius: 50%;
     z-index: 2;
-    background-color: #FFB2B2;
+    background-color: #CECECE;
     margin-top: 20px;
     position: absolute;
 }
@@ -48,7 +228,7 @@
     height: 140px;
     border-radius: 50%;
     z-index: 3;
-    border: 20px solid #FF7272;
+    border: 20px solid #8afd61;
     margin-top: 20px;
     border-top-color: transparent;
     transform: rotate(300deg);
@@ -76,16 +256,15 @@
 
 .txt_cal {
     font-size: 18px;
-    letter-spacing: wpx;
+    letter-spacing: 2px;
 }
 
 .avatar {
-    z-index: 2;
     background-image: url("../img/avatar.png");
     background-size: contain;
     width: 164px;
     height: 164px;
-    margin-top: 190px;
+    margin-left: 10px;
 }
 
 .upcoming {
