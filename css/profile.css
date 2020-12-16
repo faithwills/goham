@@ -1,9 +1,18 @@
+/* common features */
 .profile {
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile_content {
+    width: 100%;
+    height: 661px;
+    overflow: auto;
+    background-image: url("../img/pokemongo_bg.jpg");
+    background-size: cover;
 }
 
 .profile_pic {
@@ -29,30 +38,57 @@
     position: absolute;
 }
 
-.list_friends_details {
-    width: 35px;
-    height: 35px;
+.list_title_container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.list_item {
-    padding: 3px 18px 3px 18px;
+.list_body_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white
 }
 
-.list_friends {
+.list_title {
+    color: white;
     font-size: 24px;
     letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.list_invite {
-    text-align: right;
+#fixed {
+    /*position: fixed;*/
 }
 
-.list_invite_decision {
-    width: 150px;
+.profile_buttons{
+    position: relative;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float:left;
+    
+    width: 40%;
+    height:5%;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #118DFF;   
+
+    color: white !important;
+    font-size: 14px;
+    letter-spacing: 2px;
+
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
+/* profile features */
 .check_icon {
     width: 30px;
 }
@@ -70,6 +106,179 @@
     color: #EB5757;
 }
 
-#fixed {
-    /*position: fixed;*/
+.list_friends_streak {
+    background-color: #3DCCCC;
+    padding: 3px 18px 3px 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_friends_invite {
+    background-color: #FFDF00;
+    padding: 3px 18px 3px 18px;
+}
+
+.friend_icon{
+    align-items:center;
+    height: 50%;
+    width: 50%;
+}
+
+.list_friend_name{
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.list_timeline {
+    font-size: 12px;
+    text-align: left;
+}
+
+.list_hangout {
+    font-size: 12px;
+    text-align: center;
+}
+
+.list_subtitle {
+    padding-top: 30px;
+    left: -30%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_workout_name {
+    position:relative;
+    left:15%;
+    font-size: 14px;
+    width: 33%;
+    text-align: center;
+}
+
+.list_invite {
+    text-align: right;
+}
+
+.list_invite_decision {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* my progress features */
+.list_progress {
+    background-color: #3DCCCC;
+    padding: 3px 18px 3px 18px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    float:center;
+}
+
+.list_title_medium {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.progress_pic{
+    align-items:center;
+    height: 30%;
+    width: 30%;
+    display:flex;
+    float:left;
+    border: 2px solid black;
+}
+
+.list_months {
+    padding-top: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    word-spacing: 10px;
+
+}
+
+.lock_profile{
+   width: 7%;
+   height: 7%;
+
+}
+
+/* my milestones features */
+.trophy_icon{
+    align-items:center;
+    height: 10%;
+    width: 10%;
+    padding-right: 10px;
+}
+
+.add_icon{
+    align-items:right;
+    text-align: right;
+    height: 7%;
+    width: 7%;
+    padding-left:260px;
+    padding-bottom:10px;
+    padding-top:40px;
+}
+
+.list_setdate{
+    padding-right:15px;
+    text-align: center;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.list_task {
+    font-size: 12px;
+    text-align: left;
+}
+
+.list_status {
+    font-size: 11px;
+    text-align: center;
+}
+
+.list_milestone {
+    font-size:24px;
+    background-color: #3DCCCC;
+    padding: 3px 18px 3px 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    float:center;
+}
+
+.milestone_heading {
+    padding-top: 15px;
+    left: -30%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_title_center {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
