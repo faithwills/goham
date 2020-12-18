@@ -42,13 +42,22 @@ hr {
     overflow: auto;
 }
 
-
+.list_container {
+    margin-left: 22px;
+    margin-right: 22px;
+}
 
 .list_item {
-    padding: 12px 18px 12px 18px;
+    padding: 12px 0 12px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.list-header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 22px;
 }
 
 .list_title {
@@ -108,7 +117,7 @@ hr {
 
 .list_exercise_image {
     width: 233px;
-    height: 98px;
+    height: 65px;
     overflow: hidden;
     border-radius: 5px;
     display: flex;
