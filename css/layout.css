@@ -214,8 +214,34 @@ hr {
     position: sticky;
     left: 0;
     top: 0;
-    /*background-image: url("../img/banner_bg.png");*/
-    /*background-size: cover;*/
+}
+
+.header-back {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    color: white;
+    background-image: url("../img/goham_banner.png");
+    background-size: contain;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.a-back, .a-back:hover {
+    color: white;
+}
+
+.back {
+    margin-left: 22px;
+}
+
+.header-back-title {
+    margin-left: 40px;
 }
 
 .footer {
