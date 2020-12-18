@@ -1,0 +1,44 @@
+.btn-grp {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    width: 32%;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color: #118DFF;
+}
+
+.blue:hover {
+    background-color: #0e78d9;
+}
+
+.green {
+    background-color: #39D6D8;
+}
+
+.green:hover {
+    background-color: #22c2c3;
+}
+
+.orange {
+    background-color: #FFA053;
+}
+
+.orange:hover {
+    background-color: #ea914a;
+}
