@@ -19,6 +19,7 @@
     border-radius: 12px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.4);
     margin: 17px 0 11px 0;
+    position: relative;
 }
 
 .chat_video > img {
@@ -34,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     margin-left: 133px;
     margin-top: 76px;
 }
@@ -80,9 +81,92 @@
 }
 
 .blue {
-    background: #BAECF6;
+    background: #BAC7F6;
     background-image: url("../img/ham_sprite1.png");
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.purple {
+    background: #CABAF6;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.orange {
+    background: #F6CCBA;
+    background-image: url("../img/ham_sprite3.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.green {
+    background: #9CE590;
+    background-image: url("../img/ham_sprite1.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.light_blue {
+    background: #BAECF6;
+    background-image: url("../img/ham_sprite7.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.yellow {
+    background: #ffe9a1;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.comment_one {
+    margin: 11px 0 11px 0;
+    display: flex;
+}
+
+.comment_two {
+    margin: 11px 0 11px 62px;
+    display: flex;
+}
+
+.comment_one_box {
+    flex-grow: 1;
+    margin-left: 11px;
+}
+
+.comment_one_text {
+    background-color: rgba(206, 206, 206, 0.24);
+    border-radius: 16px;
+    padding: 13px 20px;
+    flex-grow: 1;
+}
+
+.comment_name {
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.comment_text {
+    color: rgba(0, 0, 0, 0.72);
+    margin: 5px 0 5px 0;
+}
+
+.comment_one_time {
+    color: rgba(0, 0, 0, 0.32);
+    font-size: 13px;
+    margin: 5px 0 0 23px;
 }
