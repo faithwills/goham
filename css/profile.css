@@ -10,10 +10,19 @@
 
 .profile_content {
     width: 100%;
-    height: 661px;
+    height: 665px;
     overflow: auto;
+    padding: 0;
+}
+
+.profile_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 665px;
     background-image: url("../img/pokemongo_bg.jpg");
     background-size: cover;
+    opacity: 0.7;
 }
 
 .profile_pic {
@@ -21,11 +30,16 @@
     width: 224px;
     height: 224px;
     border-radius: 50%;
-    border: 5px solid #CECECE;
+    border: 2px solid #CECECE;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.profile_pic > img {
+    width: 100%;
 }
 
 .avatar {
@@ -39,31 +53,36 @@
     position: absolute;
 }
 
-.list_title_container{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.list_body_container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-color: white
-}
-
-.list_title {
-    color: white;
-    font-size: 24px;
-    letter-spacing: 2px;
-    text-align: center;
+.box {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-#fixed {
-    /*position: fixed;*/
+.list_title_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 153px;
+    height: 31px;
+    background-color: #0DD7E3;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 25px 4px 25px;
+    color: white;
+    font-size: 24px;
 }
+
+.list_body_container{
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: white;
+    padding: 0 22px;
+    border-radius: 10px;
+}
+
 
 .profile_buttons{
     position: relative;
@@ -105,13 +124,6 @@
 
 #x {
     color: #EB5757;
-}
-
-.list_friends_streak {
-    background-color: #3DCCCC;
-    padding: 3px 18px 3px 18px;
-    justify-content: center;
-    align-items: center;
 }
 
 .list_friends_invite {
