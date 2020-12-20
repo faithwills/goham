@@ -1,3 +1,9 @@
+.title {
+    margin-left: 22px;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
 .add_schedule {
     width: 100%;
     margin-top: 70px;
@@ -6,7 +12,9 @@
 }
 
 .add_schedule_container {
-    width: 90%;
+    margin-right: 22px;
+    margin-left: 22px;
+    width: 100%;
     height: 100%;
     background-color: white;
 }
@@ -31,7 +39,7 @@
 
 .add_schedule_item_input_container.checkbox {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 5px;
 }
 
@@ -101,6 +109,7 @@ input[type=text] {
     font-size: 24px;
     letter-spacing: 4px;
     margin-top: 30px;
+    font-weight: bold;
 }
 
 .friend_tag {
