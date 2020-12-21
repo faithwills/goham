@@ -23,78 +23,77 @@
     <div class="iphone">
 
         <!-- HEADER -->
-        <div class="header"></div>
+        <div class="header">go ham!</div>
 
         <!-- PROFILE CONTENT -->
         <div class="profile_content">
 
+            <div class="profile_bg"></div>
+
             <!-- PROFILE PIC -->
             <div class="profile">
                 <div class="profile_pic">
-                    <img src="img/profile.png" />
+                    <img src="img/profile_pic.png" />
                 </div>
                 <div class="avatar"></div>
             </div>
 
             <!-- FRIENDS LIST -->
- 
-            <div class="list_milestone">
-                <div class="list_title_center">HEALTH GOALS</div>
-            </div>
 
-            <div class="list_body_container" >  
-                <div class="list" id="fixed">
-                    <!-- HEADING -->
-                    <div class="list_item" >
-                        <div class="milestone_heading">
-                            START &nbsp; END &nbsp; GOAL &nbsp;&nbsp;&nbsp; STATUS
+            <div class="box">
+                <div class="list_title_container list_title_container_progress">
+                    HEALTH GOALS
+                </div>
+
+                <div class="list_body_container" >
+                    <div class="list" id="fixed">
+                        <!-- HEADING -->
+                        <div class="list_item" >
+                            <div class="milestone_heading">
+                                START &nbsp; END &nbsp; GOAL &nbsp;&nbsp;&nbsp; STATUS
+                            </div>
                         </div>
+
+                        <hr>
+                        <!-- FRIEND 1 -->
+                        <div class="list_item" >
+                            <div class="list_setdate">NOV 14</div>
+                            <div class="list_setdate">DEC 31</div>
+                            <div class="list_task">DO SUNRISE YOGA DAILY</div>
+                            <div class="list_status">IN PROGRESS</div>
+                        </div>
+
+                        <hr>
+                        <!-- FRIEND 2 -->
+                        <div class="list_item" >
+                            <div class="list_setdate">NOV 22</div>
+                            <div class="list_setdate">-</div>
+                            <div class="list_task">IMPROVE BACK POSTURE</div>
+                            <div class="list_status">NOT STARTED</div>
+                        </div>
+
+                        <hr>
+                        <!-- FRIEND 3 -->
+                        <div class="list_item" >
+                            <div class="list_setdate">MAY 10</div>
+                            <div class="list_setdate">NOV 10</div>
+                            <div class="list_task">WORKOUT FOR SIX MONTHS</div>
+                            <img class="trophy_icon" src="img/trophy.png" />
+                        </div>
+
+                        <hr>
+
+                        <img class="add_icon" id="add" src="img/add.png" />
+
                     </div>
-
-                    <hr>
-                    <!-- FRIEND 1 -->
-                    <div class="list_item" >  
-                        <div class="list_setdate">NOV 14</div>
-                        <div class="list_setdate">DEC 31</div>
-                        <div class="list_task">DO SUNRISE YOGA DAILY</div>
-                        <div class="list_status">IN PROGRESS</div>
-                    </div>
-
-                    <hr>
-                    <!-- FRIEND 2 -->
-                    <div class="list_item" >  
-                        <div class="list_setdate">NOV 22</div>
-                        <div class="list_setdate">-</div>
-                        <div class="list_task">IMPROVE BACK POSTURE</div>
-                        <div class="list_status">NOT STARTED</div>
-                    </div>
-
-                    <hr>
-                    <!-- FRIEND 3 -->
-                    <div class="list_item" >  
-                        <div class="list_setdate">MAY 10</div>
-                        <div class="list_setdate">NOV 10</div>
-                        <div class="list_task">WORKOUT FOR SIX MONTHS</div>
-                        <img class="trophy_icon" src="img/trophy.png" />
-                    </div>
-
-                    <hr>
-
-                    <img class="add_icon" src="img/add.png" />
-                    
-
                 </div>
             </div>
-            <br>   
             
             <!-- OTHER PROFILE PAGES -->
-            
-            <a href="profile_progress.html">
-                <div class="profile_buttons">MY PROGRESS</div>
-            </a>
-            <a href="profile.html">
-                <div class="profile_buttons">MY INVITES</div>
-            </a>  
+            <div class="btn_grp">
+                <button class="profile_buttons" onclick="window.location.href='profile_progress.html'">MY PROGRESS</button>
+                <button class="profile_buttons" onclick="window.location.href='profile.html'">MY INVITES</button>
+            </div>
 
         </div>
 
@@ -107,7 +106,7 @@
                         <div class="footer_text">Home</div>
                     </div>
                 </a>
-                <a href="exercises.html">
+                <a href="map.html">
                     <div class="footer_button">
                         <i class="material-icons">accessibility</i>
                         <div class="footer_text">Exercises</div>

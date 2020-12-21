@@ -23,150 +23,128 @@
     <div class="iphone">
 
         <!-- HEADER -->
-        <div class="header"></div>
+        <div class="header">go ham!</div>
 
         <!-- PROFILE CONTENT -->
         <div class="profile_content">
 
+            <div class="profile_bg"></div>
+
             <!-- PROFILE PIC -->
             <div class="profile">
                 <div class="profile_pic">
-                    <img src="img/profile.png" />
+                    <img src="img/profile_pic.png" />
                 </div>
                 <div class="avatar"></div>
             </div>
 
             <!-- FRIENDS LIST -->
-            <div class="list_title_container">  
-                <div class="list_friends_streak" id="fixed">
-                    <div class="list_title">FRIENDS</div>
+            <div class="box">
+                <div class="list_title_container list_title_container_friends">
+                    FRIENDS
+                </div>
+
+                <div class="list_body_container" >
+                    <table class="friends_table">
+                        <tr>
+                            <th class="text-left">FRIEND</th>
+                            <th class="text-center">HISTORY</th>
+                            <th class="text-right">HANGOUTS</th>
+                        </tr>
+
+                        <tr>
+                            <td class="text-left">
+                                <span class="circle-avatar purple"></span>
+                                <span>ANDY</span>
+                            </td>
+                            <td class="text-center">PALS FOR 1 YEAR</td>
+                            <td class="text-right"><span class="bold">30 WORKOUTS</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-left">
+                                <span class="circle-avatar light_blue"></span>
+                                <span>STEPH</span>
+                            </td>
+                            <td class="text-center">PALS FOR 3 WEEKS</td>
+                            <td class="text-right"><span class="bold">9 WORKOUTS</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-left">
+                                <span class="circle-avatar yellow"></span>
+                                <span>CAROL</span>
+                            </td>
+                            <td class="text-center">PALS FOR 5 DAYS</td>
+                            <td class="text-right"><span class="bold">2 WORKOUTS</span></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <div class="list_body_container" >  
-                <div class="list" id="fixed">
-                    <!-- HEADING -->
-                    <div class="list_item" >
-                        <div class="list_subtitle">
-                            FRIEND &nbsp; HISTORY &nbsp; HANGOUTS
-                        </div>
-                    </div>
-
-                    <hr>
-                    <!-- FRIEND 1 -->
-                    <div class="list_item" >  
-                        <div class="list_friend_name">
-                            <img class="friend_icon" src="img/ham7.png" />
-                            <div>ANDY</div>
-                        </div>
-            
-                        <div class=list_timeline>PALS FOR 1 YEAR </div>
-                        <div class=list_hangout>30 WORKOUTS</div>
-                        
-                    </div>
-
-                    <hr>
-                    <!-- FRIEND 2 -->
-                    <div class="list_item" >  
-                        <div class="list_friend_name">
-                            <img class="friend_icon" src="img/ham8.png" />
-                            <div>STEPH</div>
-                        </div>
-                        <div class="list_timeline">PALS FOR 3 WEEKS</div>
-                        <div class=list_hangout>9 WORKOUTS</div>
-                    </div>
-
-                    <hr>
-                    <!-- FRIEND 3 -->
-                    <div class="list_item" >  
-                        <div class="list_friend_name">
-                            <img class="friend_icon" src="img/ham3a.png" />
-                            <div>CAROL</div>
-                        </div>
-                        <div class="list_timeline">PALS FOR 5 DAYS</div>
-                        <div class=list_hangout>2 WORKOUTS</div>
-                    </div>
-
-                    <hr>
-
-                </div>
-            </div>
-            <br>
 
             <!-- INVITE LIST -->
-            <div class="list_title_container">        
-                <div class="list_friends_invite" id="fixed">
-                        <div class="list_title">INVITES</div>
+            <div class="box invite_box">
+                <div class="list_title_container list_title_container_invites">
+                    INVITES
+                </div>
+
+                <div class="list_body_container" >
+                    <table class="invites_table">
+                        <tr>
+                            <th class="text-left">FRIEND</th>
+                            <th class="text-center">EXERCISE</th>
+                            <th class="text-right"></th>
+                        </tr>
+
+                        <tr>
+                            <td class="text-left">
+                                <span class="circle-avatar purple"></span>
+                                <span>TOM</span>
+                            </td>
+                            <td class="text-left">Abs 3</td>
+                            <td class="text-right decision_icons">
+                                <a href="#">
+                                    <div class="check_icon">
+                                        <i class="material-icons check">check_icon</i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="x_icon">
+                                        <i class="material-icons x">close_icon</i>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-left">
+                                <span class="circle-avatar light_blue"></span>
+                                <span>SUSAN</span>
+                            </td>
+                            <td class="text-left">Chest 1</td>
+                            <td class="text-right decision_icons">
+                                <a href="#">
+                                    <div class="check_icon">
+                                        <i class="material-icons check">check_icon</i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="x_icon">
+                                        <i class="material-icons x">close_icon</i>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <div class="list_body_container">  
-                <div class="list">
-                    <div class="list_item" >
-                        <div class="list_subtitle">FRIEND &nbsp;&nbsp; EXERCISE</div>
-                    </div>
-
-                    <hr>
-
-                    <!-- INVITE 1 -->
-                    <div class="list_item">
-                        <div class="list_friend_name">
-                            <img class="friend_icon" src="img/ham4.png" />
-                            <div>TOM</div>
-                        </div>
-                        <div class="list_workout_name">Abs 3</div>
-                        <div class="list_invite">
-                            <div class="list_invite_decision">
-                                <a href="#">
-                                    <div class="check_icon">
-                                        <i class="material-icons" id="check">check_icon</i>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="x_icon">
-                                        <i class="material-icons" id="x">close_icon</i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <!-- INVITE 2 -->
-                    <div class="list_item">
-                        <div class="list_datetime">
-                            <img class="friend_icon" src="img/ham5.png" />
-                            <div class="list_time">SUSAN</div>
-                        </div>
-                        <div class="list_workout_name">Chest 1</div>
-                        <div class="list_invite">
-                            <div class="list_invite_decision">
-                                <a href="#">
-                                    <div class="check_icon">
-                                        <i class="material-icons" id="check">check_icon</i>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="x_icon">
-                                        <i class="material-icons" id="x">close_icon</i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                </div>
-            </div>   
             
             <!-- OTHER PROFILE PAGES -->
-            
-            <a href="profile_progress.html">
-                <div class="profile_buttons">MY PROGRESS</div>
-            </a>
-            <a href="profile_milestones.html">
-                <div class="profile_buttons">MY MILESTONES</div>
-            </a>  
+            <div class="btn_grp">
+                <button class="profile_buttons" onclick="window.location.href='profile_progress.html'">MY PROGRESS</button>
+                <button class="profile_buttons" onclick="window.location.href='profile_milestones.html'">MY MILESTONES</button>
+            </div>
+
 
         </div>
 
@@ -179,7 +157,7 @@
                         <div class="footer_text">Home</div>
                     </div>
                 </a>
-                <a href="exercises.html">
+                <a href="map.html">
                     <div class="footer_button">
                         <i class="material-icons">accessibility</i>
                         <div class="footer_text">Exercises</div>

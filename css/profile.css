@@ -10,10 +10,19 @@
 
 .profile_content {
     width: 100%;
-    height: 661px;
+    height: 665px;
     overflow: auto;
+    padding: 0;
+}
+
+.profile_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 665px;
     background-image: url("../img/pokemongo_bg.jpg");
     background-size: cover;
+    opacity: 0.7;
 }
 
 .profile_pic {
@@ -21,11 +30,16 @@
     width: 224px;
     height: 224px;
     border-radius: 50%;
-    border: 5px solid #CECECE;
+    border: 2px solid #CECECE;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.profile_pic > img {
+    width: 100%;
 }
 
 .avatar {
@@ -39,54 +53,141 @@
     position: absolute;
 }
 
-.list_title_container{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.list_body_container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-color: white
-}
-
-.list_title {
-    color: white;
-    font-size: 24px;
-    letter-spacing: 2px;
-    text-align: center;
+.box {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-#fixed {
-    /*position: fixed;*/
+.invites_table {
+    border-collapse: separate;
+    border-spacing: 45px 0;
 }
 
-.profile_buttons{
-    position: relative;
-    margin-left: 25px;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    float:left;
-    
-    width: 40%;
-    height:5%;
+.invite_box {
+    margin: 22px 0;
+}
 
-    border: none;
-    border-radius: 5px;
-    background-color: #118DFF;   
-
-    color: white !important;
-    font-size: 14px;
-    letter-spacing: 2px;
-
+.list_title_container{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    width: 153px;
+    height: 31px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 25px 4px 25px;
+    color: white;
+    font-size: 24px;
+}
+
+.list_title_container_friends {
+    background-color: #0DD7E3;
+}
+
+.list_title_container_invites {
+    background-color: #FFA053;
+}
+
+.list_title_container_progress {
+    background-color: #0DD7E3;
+    width: 220px;
+}
+
+.list_body_container{
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: white;
+    padding: 22px 22px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.text-left {
+    font-weight: normal;
+    text-align: left;
+    font-size: 13px;
+}
+
+.text-right {
+    font-weight: normal;
+    text-align: right;
+    font-size: 13px;
+}
+
+.text-center {
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+}
+
+.decision_icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circle-avatar {
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    background: #CABAF6;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.light_blue {
+    background: #BAECF6;
+    background-image: url("../img/ham_sprite7.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.yellow {
+    background: #ffe9a1;
+    background-image: url("../img/ham_sprite2.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.btn_grp {
+    display: flex;
+    margin: 15px 22px 22px 22px;
+    justify-content: space-around;
+}
+
+
+.profile_buttons{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #118DFF;
+    color: white !important;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 /* profile features */
@@ -99,38 +200,12 @@
     margin-left: 12px;
 }
 
-#check {
+.check {
     color: #27AE60;
 }
 
-#x {
+.x {
     color: #EB5757;
-}
-
-.list_friends_streak {
-    background-color: #3DCCCC;
-    padding: 3px 18px 3px 18px;
-    justify-content: center;
-    align-items: center;
-}
-
-.list_friends_invite {
-    background-color: #FFDF00;
-    padding: 3px 18px 3px 18px;
-}
-
-.friend_icon{
-    align-items:center;
-    height: 50%;
-    width: 50%;
-}
-
-.list_friend_name{
-    text-align: left;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
 }
 
 .list_timeline {
@@ -141,34 +216,6 @@
 .list_hangout {
     font-size: 12px;
     text-align: center;
-}
-
-.list_subtitle {
-    padding-top: 30px;
-    left: -30%;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.list_workout_name {
-    position:relative;
-    left:15%;
-    font-size: 14px;
-    width: 33%;
-    text-align: center;
-}
-
-.list_invite {
-    text-align: right;
-}
-
-.list_invite_decision {
-    width: 150px;
-    display: flex;
-    justify-content: flex-end;
 }
 
 /* my progress features */
