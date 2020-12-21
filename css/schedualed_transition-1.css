@@ -1,0 +1,162 @@
+body {
+    
+}
+
+.content {
+    background-image: url("../img/pokemongo_bg.jpg");
+    background-size: cover;
+
+    /*width: 200%;
+    opacity: 0.7;
+    overflow-y: clip;
+    overflow-x: scroll;
+    left: 50%;*/
+}
+
+.profile {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone {
+    overflow-x: scroll;
+
+}
+
+.room_location_circle {
+    width: 40%;
+    height: 30%;
+    margin-left: 130px;
+    background-image:url("../img/location_circle.png");
+    background-size: 110px 110px;
+    background-repeat: no-repeat;
+}
+
+
+.ham_preview {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 30%;
+
+}
+
+.workout_summary{
+    overflow-x: scroll;
+    display: block;
+    text-align: center;
+    border-right: 3px;
+    padding-bottom: 30px;
+    margin-top: -90px;
+    /*border: px solid black;*/
+    background-color: white;
+    width: 90%;
+    height: 58%;
+    border-radius: 3px;
+    margin-left: 20px;
+
+}
+
+.join{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700px;
+
+}
+
+
+.workout_screenshot{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 80%;  
+    padding-top: 10px;
+    padding-bottom: -10px;
+    border-radius: 3px;
+    opacity: 0.8;
+
+}
+
+.avatar_pose {
+    background-color: transparent;
+
+}
+
+.instructors {
+    font-size: 16px;
+    padding-left: 35px;
+    text-align:left;
+}
+
+.pose_seq {
+    padding-top: 10px;
+    text-align:center;
+    font-size: 16px;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #035efc;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 135px;
+  margin-top: 20px;
+
+
+}
+
+.workout_pose {
+    height: 40px;
+    width: 125px;
+    background-color: white;
+    font-size: 16px;
+    margin-top: -410px;
+    margin-left: 40px;
+    padding-left: 8px;
+    padding-top: 5px;
+    position: relative;
+    text-align: left;
+
+}
+
+.number {
+    margin: auto;
+    font-size: 70px;
+    font-style: italic;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 165px;
+}
+
+.go_hamster_motivation {
+    width: 90px; 
+    height: 90px;
+    margin-top: -60px;
+    margin-left: 280px;
+    position: relative;
+}
+.motivation_text {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 255px; 
+    margin-top: -120px;
+}
+.list_pose {
+    padding-left: 15px;
+}
+
+.list_secs {
+    padding-right: 15px;
+}
