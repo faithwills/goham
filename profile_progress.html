@@ -23,63 +23,61 @@
     <div class="iphone">
 
         <!-- HEADER -->
-        <div class="header"></div>
+        <div class="header">go ham!</div>
 
         <!-- PROFILE CONTENT -->
         <div class="profile_content">
 
+            <div class="profile_bg"></div>
+
             <!-- PROFILE PIC -->
             <div class="profile">
                 <div class="profile_pic">
-                    <img src="img/profile.png" />
+                    <img src="img/profile_pic.png" />
                 </div>
                 <div class="avatar"></div>
             </div>
 
-            <!-- FRIENDS LIST -->
- 
-            <div class="list_progress" id="fixed">
-                <div class="list_title_medium">PROGRESS ALBUM</div>
-                <img class="lock_profile" src="img/lock2.png" />
-            </div>
+            <!-- PROGRESS ALBUM -->
+            <div class="box">
+                <div class="list_title_container list_title_container_progress">
+                    PROGRESS ALBUM
+                </div>
 
-            <div class="list_body_container" >  
-                <div class="list" id="fixed">
-                    <!-- HEADING -->
-                    <div class="list_item" >
-                        <div class="list_months">
-                            JAN &nbsp;&nbsp; FEB &nbsp;&nbsp; MAR
+                <div class="list_body_container">
+                    <div class="list" id="fixed">
+                        <!-- HEADING -->
+                        <div class="list_item" >
+                            <div class="list_months">
+                                JAN &nbsp;&nbsp; FEB &nbsp;&nbsp; MAR
+                            </div>
                         </div>
-                    </div>
-                    <div class="list_item" >
-                        <img class="progress_pic" src="img/progress1.png" />
-                        <img class="progress_pic" src="img/progress1.png" />
-                        <img class="progress_pic" src="img/progress2.png" />
-                    </div>
-                    <div class="list_item" >
-                        <div class="list_months">
-                            APR &nbsp;&nbsp; MAY &nbsp;&nbsp; JUN
+                        <div class="list_item" >
+                            <img class="progress_pic" src="img/progress1.png" />
+                            <img class="progress_pic" src="img/progress1.png" />
+                            <img class="progress_pic" src="img/progress2.png" />
                         </div>
-                    </div>
-                    <div class="list_item" >
-                        <img class="progress_pic" src="img/progress2.png" />
-                        <img class="progress_pic" src="img/progress3.png" />
-                        <img class="progress_pic" src="img/progress3.png" />
+                        <div class="list_item" >
+                            <div class="list_months">
+                                APR &nbsp;&nbsp; MAY &nbsp;&nbsp; JUN
+                            </div>
+                        </div>
+                        <div class="list_item" >
+                            <img class="progress_pic" src="img/progress2.png" />
+                            <img class="progress_pic" src="img/progress3.png" />
+                            <img class="progress_pic" src="img/progress3.png" />
+                        </div>
+
                     </div>
 
                 </div>
             </div>
-            <br>
 
             <!-- OTHER PROFILE PAGES -->
-            
-            <a href="profile_progress.html">
-                <div class="profile_buttons">MY MILESTONES</div>
-            </a>
-            <a href="profile_milestones.html">
-                <div class="profile_buttons">MY INVITES</div>
-            </a>  
-
+            <div class="btn_grp">
+                <button class="profile_buttons" onclick="window.location.href='profile_milestones.html'">MY MILESTONES</button>
+                <button class="profile_buttons" onclick="window.location.href='profile.html'">MY INVITES</button>
+            </div>
         </div>
 
         <!-- FOOTER -->

@@ -91,6 +91,11 @@
     background-color: #FFA053;
 }
 
+.list_title_container_progress {
+    background-color: #0DD7E3;
+    width: 220px;
+}
+
 .list_body_container{
     margin-left: 22px;
     margin-right: 22px;
@@ -166,7 +171,7 @@ table {
 
 .btn_grp {
     display: flex;
-    margin: 15px 22px;
+    margin: 15px 22px 22px 22px;
     justify-content: space-around;
 }
 
