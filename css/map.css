@@ -124,6 +124,13 @@
     left: 207%;
 }
 
+#room8 {
+    position: absolute;
+    top: 1%;
+    width: 95px;
+    left: 133%;
+}
+
 .room_text {
     background-color: white;
     border-radius: 10px;
