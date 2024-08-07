@@ -2,7 +2,7 @@
 GO HAM!, Columbia University					                                                    
 10/2020 – 12/2020
 
-Course: COMS 4170 User Interface Design | Programming Language: HTML, CSS, Javascript
+Course: COMS 4170 User Interface Design 
 
 Our target population is Columbia University students who may be less motivated to exercise due to COVID-19’s impact on student lifestyles. These students may have limited access to exercise due to the shutdown of gyms and discouragement of social gatherings.
 
